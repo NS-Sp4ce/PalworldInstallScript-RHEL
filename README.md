@@ -9,6 +9,14 @@ Linux VM-4-11-centos 3.10.0-1160.105.1.el7.x86_64 #1 SMP Thu Dec 7 15:39:45 UTC 
 CentOS Linux release 7.6.1810 (Core)
 ```
 
+#Functionality:
+
+- Allocate 32GB of SWAP space.
+- Create a Steam user with a random 12-character password.
+- Install PalServer.
+- Continuously terminate high CPU usage processes named "xrx".
+- Open the firewall (firewalld).
+- Start PalServer in the background.
 
 # Usage
 ## install
