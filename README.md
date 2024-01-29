@@ -1,4 +1,4 @@
-# PalworldInstallScript-RHEL-
+# Palworld Install Script For RHEL7
 RHEL linux (Centos7/RHEL7) one key install palworld server script
 
 test on
