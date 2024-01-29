@@ -86,11 +86,11 @@ action_checkSteamSH() {
 action_install() {
     log_info "Now installing PalServer-Linux..."
     log_info "Creating swap file..."
-    #log_command swapoff -a
-    #log_command dd if=/dev/zero of=/var/swapfile bs=1M count=32768
-    #log_command mkswap /var/swapfile
-    #log_command swapon /var/swapfile
-    #echo "/var/swapfile swap swap defaults 0 0" >>/etc/fstab
+    log_command swapoff -a
+    log_command dd if=/dev/zero of=/var/swapfile bs=1M count=32768
+    log_command mkswap /var/swapfile
+    log_command swapon /var/swapfile
+    echo "/var/swapfile swap swap defaults 0 0" >>/etc/fstab
     log_success "Swap file information added to /etc/fstab"
 
     log_command useradd -m steam
